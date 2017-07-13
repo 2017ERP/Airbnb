@@ -140,13 +140,13 @@ ExtendedSearchProposition.Field = Widget.extend({
         }
     },
     /**
-     * Returns a human-readable version of the value, in case the "logical"
+     * Returns a openacademy-readable version of the value, in case the "logical"
      * and the "semantic" values of a field differ (as for selection fields,
      * for instance).
      *
      * The default implementation simply returns the value itself.
      *
-     * @return {String} human-readable version of the value
+     * @return {String} openacademy-readable version of the value
      */
     toString: function () {
         return this.get_value();

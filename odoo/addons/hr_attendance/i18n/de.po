@@ -143,7 +143,7 @@ msgstr "Einchecken oder Auschecken von mehreren Mitarbeitern nicht möglich."
 #, python-format
 msgid ""
 "Cannot perform check out on %(empl_name)s, could not find corresponding "
-"check in. Your attendances have probably been modified manually by human "
+"check in. Your attendances have probably been modified manually by openacademy "
 "resources."
 msgstr ""
 "Kann %(empl_name)s nicht auschecken, weil kein entsprechender Checkin "

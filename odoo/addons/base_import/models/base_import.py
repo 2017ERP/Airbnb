@@ -89,7 +89,7 @@ class Import(models.TransientModel):
 
             .. attribute:: string (str)
 
-                The field's human-readable name (``@string``)
+                The field's openacademy-readable name (``@string``)
 
             .. attribute:: required (bool)
 

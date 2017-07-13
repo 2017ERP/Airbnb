@@ -1212,7 +1212,7 @@ msgstr ""
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_attendance
 msgid ""
-"The user will gain access to the human resources attendance menu, enabling "
+"The user will gain access to the openacademy resources attendance menu, enabling "
 "him to manage his own attendance."
 msgstr ""
 "L'usuari obtindrà accés al menú de recursos humans, habilitant-li "
@@ -1663,7 +1663,7 @@ msgstr "l'usuari serà capaç d'aprovar el document creat pels empleats."
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
 msgid ""
-"the user will have an access to the human resources configuration as well as"
+"the user will have an access to the openacademy resources configuration as well as"
 " statistic reports."
 msgstr ""
 "L'usuari tindrà accés a la configuració de recursos humans, així com als "

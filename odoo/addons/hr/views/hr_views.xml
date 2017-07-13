@@ -2,33 +2,33 @@
 <odoo>
     <data>
 
-        <!-- Top menu item -->
-        <menuitem
-            id="menu_hr_root"
-            name="Employees"
-            groups="group_hr_manager,group_hr_user,base.group_user"
-            web_icon="hr,static/description/icon.png"
-            sequence="75"/>
+        <!--&lt;!&ndash; Top menu item &ndash;&gt;-->
+        <!--<menuitem-->
+            <!--id="menu_hr_root"-->
+            <!--name="Employees"-->
+            <!--groups="group_hr_manager,group_hr_user,base.group_user"-->
+            <!--web_icon="hr,static/description/icon.png"-->
+            <!--sequence="75"/>-->
 
-        <menuitem
-            id="menu_hr_main"
-            name="Human Resources"
-            parent="menu_hr_root"
-            sequence="0"/>
+        <!--<menuitem-->
+            <!--id="menu_hr_main"-->
+            <!--name="Human Resources"-->
+            <!--parent="menu_hr_root"-->
+            <!--sequence="0"/>-->
 
-        <menuitem
-            id="menu_hr_reporting_timesheet"
-            name="Reports"
-            parent="menu_hr_root"
-            groups="group_hr_manager,group_hr_user"
-            sequence="99"/>
+        <!--<menuitem-->
+            <!--id="menu_hr_reporting_timesheet"-->
+            <!--name="Reports"-->
+            <!--parent="menu_hr_root"-->
+            <!--groups="group_hr_manager,group_hr_user"-->
+            <!--sequence="99"/>-->
 
-        <menuitem
-            id="menu_human_resources_configuration"
-            name="Configuration"
-            parent="menu_hr_root"
-            groups="group_hr_manager"
-            sequence="100"/>
+        <!--<menuitem-->
+            <!--id="menu_human_resources_configuration"-->
+            <!--name="Configuration"-->
+            <!--parent="menu_hr_root"-->
+            <!--groups="group_hr_manager"-->
+            <!--sequence="100"/>-->
 
         <!-- Employee -->
         <record id="view_employee_form" model="ir.ui.view">
@@ -246,11 +246,11 @@
             </field>
         </record>
 
-        <menuitem
-            id="menu_open_view_employee_list_my"
-            action="open_view_employee_list_my"
-            parent="menu_hr_root"
-            sequence="3"/>
+        <!--<menuitem-->
+            <!--id="menu_open_view_employee_list_my"-->
+            <!--action="open_view_employee_list_my"-->
+            <!--parent="menu_hr_root"-->
+            <!--sequence="3"/>-->
 
         <!-- Employee tree by manager -->
         <record id="view_partner_tree2" model="ir.ui.view">
@@ -321,12 +321,12 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <menuitem
-            id="menu_view_employee_category_form"
-            action="open_view_categ_form"
-            parent="menu_human_resources_configuration"
-            groups="base.group_no_one"
-            sequence="1"/>
+        <!--<menuitem-->
+            <!--id="menu_view_employee_category_form"-->
+            <!--action="open_view_categ_form"-->
+            <!--parent="menu_human_resources_configuration"-->
+            <!--groups="base.group_no_one"-->
+            <!--sequence="1"/>-->
 
         <!-- hr.job -->
         <record id="view_hr_job_form" model="ir.ui.view">
@@ -581,12 +581,12 @@
             </field>
         </record>
 
-        <menuitem
-            action="open_module_tree_department"
-            id="menu_hr_department_tree"
-            parent="menu_hr_root"
-            sequence="90"
-            groups="group_hr_user"/>
+        <!--<menuitem-->
+            <!--action="open_module_tree_department"-->
+            <!--id="menu_hr_department_tree"-->
+            <!--parent="menu_hr_root"-->
+            <!--sequence="90"-->
+            <!--groups="group_hr_user"/>-->
 
     </data>
 </odoo>

@@ -1377,7 +1377,7 @@ msgstr "你不能降低已确认的配置申请"
 #: code:addons/hr_holidays/models/hr_holidays.py:361
 #, python-format
 msgid ""
-"You cannot set a leave request as '%s'. Contact a human resource manager."
+"You cannot set a leave request as '%s'. Contact a openacademy resource manager."
 msgstr "你不能作为 '%s'来设置休假申请。请与人力资源管理员联系。"
 
 #. module: hr_holidays

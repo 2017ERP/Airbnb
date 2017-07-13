@@ -315,10 +315,10 @@
             <field name="act_window_id" ref="action_sale_receipt"/>
         </record>
 
-        <menuitem id="menu_action_sale_receipt"
-            action="action_sale_receipt"
-            parent="account.menu_finance_receivables"
-            sequence="10"/>
+        <!--<menuitem id="menu_action_sale_receipt"-->
+            <!--action="action_sale_receipt"-->
+            <!--parent="account.menu_finance_receivables"-->
+            <!--sequence="10"/>-->
 
         <!--  Purchase Vouchers -->
         <record model="ir.ui.view" id="view_purchase_receipt_form">
@@ -430,6 +430,6 @@
             <field name="act_window_id" ref="action_purchase_receipt"/>
         </record>
 
-        <menuitem id="menu_action_purchase_receipt"
-            action="action_purchase_receipt" parent="account.menu_finance_payables" sequence="4"/>
+        <!--<menuitem id="menu_action_purchase_receipt"-->
+            <!--action="action_purchase_receipt" parent="account.menu_finance_payables" sequence="4"/>-->
 </odoo>

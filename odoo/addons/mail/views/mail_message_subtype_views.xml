@@ -48,7 +48,7 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
-        <menuitem name="Subtypes" id="menu_message_subtype" parent="base.menu_email" action="action_view_message_subtype"/>
+        <!--<menuitem name="Subtypes" id="menu_message_subtype" parent="base.menu_email" action="action_view_message_subtype"/>-->
 
     </data>
 </odoo>

@@ -1397,7 +1397,7 @@ msgstr "検証された割当申請を減らすことはできません"
 #: code:addons/hr_holidays/models/hr_holidays.py:361
 #, python-format
 msgid ""
-"You cannot set a leave request as '%s'. Contact a human resource manager."
+"You cannot set a leave request as '%s'. Contact a openacademy resource manager."
 msgstr "'%s' として休暇申請を設定することはできません。 人事マネージャに連絡してください。"
 
 #. module: hr_holidays

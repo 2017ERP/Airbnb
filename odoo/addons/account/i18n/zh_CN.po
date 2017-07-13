@@ -1373,7 +1373,7 @@ msgstr "会计师"
 #: model:ir.ui.menu,name:account.menu_finance
 #: model:ir.ui.view,arch_db:account.view_partner_property_form
 msgid "Accounting"
-msgstr "会计"
+msgstr " "
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_config_settings

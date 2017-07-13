@@ -1417,7 +1417,7 @@ msgstr "Ne možete smanjiti odobrenih zahtjeva za dodjelu"
 #: code:addons/hr_holidays/models/hr_holidays.py:361
 #, python-format
 msgid ""
-"You cannot set a leave request as '%s'. Contact a human resource manager."
+"You cannot set a leave request as '%s'. Contact a openacademy resource manager."
 msgstr ""
 "Ne možete ostaviti zahtjev za odsustvom kao '%s'. Kontaktirajte voditelja "
 "ljudskih resursa."

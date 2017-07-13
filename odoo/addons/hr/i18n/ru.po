@@ -1207,7 +1207,7 @@ msgstr ""
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_attendance
 msgid ""
-"The user will gain access to the human resources attendance menu, enabling "
+"The user will gain access to the openacademy resources attendance menu, enabling "
 "him to manage his own attendance."
 msgstr ""
 "Пользователь получит доступ к меню посещаемости кадров, что позволяет ему "
@@ -1665,7 +1665,7 @@ msgstr "пользователь сможет утвердить докумен�
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
 msgid ""
-"the user will have an access to the human resources configuration as well as"
+"the user will have an access to the openacademy resources configuration as well as"
 " statistic reports."
 msgstr ""
 "пользователь будет иметь доступ к настройке управления персоналом, а также к"

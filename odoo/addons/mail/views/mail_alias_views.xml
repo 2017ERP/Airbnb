@@ -77,11 +77,11 @@
             </field>
         </record>
 
-        <menuitem id="mail_alias_menu"
-                  parent="base.menu_email"
-                  action="action_view_mail_alias"
-                  sequence="50"
-                  groups="base.group_no_one"/>
+        <!--<menuitem id="mail_alias_menu"-->
+                  <!--parent="base.menu_email"-->
+                  <!--action="action_view_mail_alias"-->
+                  <!--sequence="50"-->
+                  <!--groups="base.group_no_one"/>-->
 
     </data>
 </odoo>

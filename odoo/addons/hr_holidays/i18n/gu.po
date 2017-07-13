@@ -1364,7 +1364,7 @@ msgstr ""
 #: code:addons/hr_holidays/models/hr_holidays.py:361
 #, python-format
 msgid ""
-"You cannot set a leave request as '%s'. Contact a human resource manager."
+"You cannot set a leave request as '%s'. Contact a openacademy resource manager."
 msgstr ""
 
 #. module: hr_holidays

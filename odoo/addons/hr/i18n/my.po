@@ -1206,10 +1206,10 @@ msgstr "အလုပ်ရာထူး၏နာမည်သည် ဌာနတ�
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_attendance
 msgid ""
-"The user will gain access to the human resources attendance menu, enabling "
+"The user will gain access to the openacademy resources attendance menu, enabling "
 "him to manage his own attendance."
 msgstr ""
-"The user will gain access to the human resources attendance menu, enabling "
+"The user will gain access to the openacademy resources attendance menu, enabling "
 "him to manage his own attendance."
 
 #. module: hr
@@ -1659,7 +1659,7 @@ msgstr "အသုံးပြုသူသည် ၀န်ထမ်းမျာ�
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
 msgid ""
-"the user will have an access to the human resources configuration as well as"
+"the user will have an access to the openacademy resources configuration as well as"
 " statistic reports."
 msgstr ""
 "အသုံးပြုသူသည် ၀န်ထမ်းပိုင်းဆိုင်ရာ စာရင်းအင်း စာတမ်းများကို ကြည့်နိုင်သည့် "

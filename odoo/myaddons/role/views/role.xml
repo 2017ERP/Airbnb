@@ -1,0 +1,37 @@
+<!--<?xml version="1.0" encoding="utf-8" ?>-->
+<!--<odoo>-->
+    <!--&lt;!&ndash;create top Menu&ndash;&gt;-->
+    <!--<menuitem name="Top menu" id="role_top_menu"/>-->
+    <!--&lt;!&ndash;create sub Menu&ndash;&gt;-->
+    <!--<menuitem name="sub menu" id="role_sub_menu"-->
+    <!--parent ="role_top_menu"/>-->
+
+    <!--&lt;!&ndash;Tree View&ndash;&gt;-->
+    <!--<record id="tree_custom_model" model="ir.ui.view">-->
+        <!--<field name="name">RoleModel.model.tree</field>-->
+        <!--<field name="model">RoleModel.model</field>-->
+        <!--<field name="arch" type="xml">-->
+            <!--<tree>-->
+                <!--<field name="name"/>-->
+            <!--</tree>-->
+        <!--</field>-->
+    <!--</record>-->
+
+    <!--&lt;!&ndash;define custom_action&ndash;&gt;-->
+    <!--<record id="custom_action" model="ir.action.act_window">-->
+        <!--<field name="name">Role Name</field>-->
+        <!--<field name="level">RoleModel.model</field>-->
+        <!--<field name="view.mode">tree,form</field>-->
+        <!--<field name="help" type="html">-->
+            <!--<p class="oe_view_nocontent_create">-->
+                <!--Click here to add new item !-->
+            <!--</p>-->
+        <!--</field>-->
+    <!--</record>-->
+    <!--&lt;!&ndash;create child menu&ndash;&gt;-->
+    <!--<menuitem name="child menu" id="role_child_menu"-->
+              <!--parent="role_sub_menu" action="custom_action"/>-->
+
+
+
+<!--</odoo>-->

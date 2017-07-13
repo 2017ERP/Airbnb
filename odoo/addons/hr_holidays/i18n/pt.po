@@ -1403,7 +1403,7 @@ msgstr "Não pode reduzir solicitações de alocação validados"
 #: code:addons/hr_holidays/models/hr_holidays.py:361
 #, python-format
 msgid ""
-"You cannot set a leave request as '%s'. Contact a human resource manager."
+"You cannot set a leave request as '%s'. Contact a openacademy resource manager."
 msgstr ""
 "Não pode definir um pedido de ausência como '%s'. Contate com um gestor de "
 "recursos humanos."

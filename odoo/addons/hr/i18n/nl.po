@@ -1207,7 +1207,7 @@ msgstr "De naam van de vacature moet uniek zijn per afdeling in het bedrijf!"
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_attendance
 msgid ""
-"The user will gain access to the human resources attendance menu, enabling "
+"The user will gain access to the openacademy resources attendance menu, enabling "
 "him to manage his own attendance."
 msgstr ""
 "De gebruiker krijgt toegang tot het HR aanwezigheid menu, dit geeft de "
@@ -1662,7 +1662,7 @@ msgstr "de gebruiker kan documenten aangemaakt door de werknemers goedkeuren."
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
 msgid ""
-"the user will have an access to the human resources configuration as well as"
+"the user will have an access to the openacademy resources configuration as well as"
 " statistic reports."
 msgstr ""
 "De gebruiker krijgt toegang tot de HR instellingen en de statistische "

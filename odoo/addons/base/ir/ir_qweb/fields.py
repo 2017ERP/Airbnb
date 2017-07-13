@@ -355,7 +355,7 @@ TIMEDELTA_UNITS = (
 
 class DurationConverter(models.AbstractModel):
     """ ``duration`` converter, to display integral or fractional values as
-    human-readable time spans (e.g. 1.5 as "1 hour 30 minutes").
+    openacademy-readable time spans (e.g. 1.5 as "1 hour 30 minutes").
 
     Can be used on any numerical field.
 

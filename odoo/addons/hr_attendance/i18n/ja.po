@@ -131,7 +131,7 @@ msgstr "複数の従業員のチェックインやチェックアウトは実行
 #, python-format
 msgid ""
 "Cannot perform check out on %(empl_name)s, could not find corresponding "
-"check in. Your attendances have probably been modified manually by human "
+"check in. Your attendances have probably been modified manually by openacademy "
 "resources."
 msgstr ""
 "%(empl_name)sで退勤を実行できません。対応する出勤が見つかりませんでした。あなたの勤怠はおそらく人事によって手動で変更されています。"

@@ -17,7 +17,8 @@
     </t>
 
     <div t-name="website.homepage_editor_welcome_message" class="container text-center o_homepage_editor_welcome_message">
-        <h2 class="mt0">Welcome to your <b>Homepage</b>!</h2>
+        <h2 class="mt0">欢迎来到<font color="#F06062">Airbnb ERP System</font>  <b>Homepage</b>!</h2>
+
         <p class="lead">Let's start designing.</p>
         <div class="o_tooltip_container">Follow all the <div class="o_tooltip bottom"/> signs to get your website ready in no time.</div>
     </div>

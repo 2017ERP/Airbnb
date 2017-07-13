@@ -63,7 +63,7 @@ function readCharset(aStream, aCharstrings) {
 }
 
 /*
- * Take a Type2 binary charstring as input and transform it to a human
+ * Take a Type2 binary charstring as input and transform it to a openacademy
  * readable representation as specified by the 'The Type 2 Charstring Format',
  * chapter 3.1.
  */

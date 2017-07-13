@@ -1008,8 +1008,8 @@ class BaseModel(object):
 
         def _log(base, record, field, exception):
             type = 'warning' if isinstance(exception, Warning) else 'error'
-            # logs the logical (not human-readable) field name for automated
-            # processing of response, but injects human readable in message
+            # logs the logical (not openacademy-readable) field name for automated
+            # processing of response, but injects openacademy readable in message
             exc_vals = dict(base, record=record, field=field_names[field])
             record = dict(base, type=type, record=record, field=field,
                           message=unicode(exception.args[0]) % exc_vals)

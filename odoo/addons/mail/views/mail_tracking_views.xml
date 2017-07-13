@@ -61,7 +61,7 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form</field>
         </record>
-        <menuitem name="Tracking Values" id="menu_mail_tracking_value" parent="base.menu_email" action="action_view_mail_tracking_value"/>
+        <!--<menuitem name="Tracking Values" id="menu_mail_tracking_value" parent="base.menu_email" action="action_view_mail_tracking_value"/>-->
 
     </data>
 </odoo>

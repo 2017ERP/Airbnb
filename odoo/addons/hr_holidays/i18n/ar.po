@@ -1404,7 +1404,7 @@ msgstr "لا يمكن تقليل طلبات المخصصة للتحقق من ص�
 #: code:addons/hr_holidays/models/hr_holidays.py:361
 #, python-format
 msgid ""
-"You cannot set a leave request as '%s'. Contact a human resource manager."
+"You cannot set a leave request as '%s'. Contact a openacademy resource manager."
 msgstr "لا يمكنك إعداد طلب الإجازة على شكل \"%s\". اتصل مدير الموارد البشرية. "
 
 #. module: hr_holidays

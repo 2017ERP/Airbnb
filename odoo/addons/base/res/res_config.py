@@ -602,11 +602,11 @@ class ResConfigSettings(models.TransientModel, ResConfigModuleInstallationMixin)
     @api.model
     def get_option_name(self, full_field_name):
         """
-        Fetch the human readable name of a specified configuration option.
+        Fetch the openacademy readable name of a specified configuration option.
 
         :param string full_field_name: the full name of the field, structured as follows:
             model_name.field_name (e.g.: "sale.config.settings.fetchmail_lead")
-        :return string: human readable name of the field (e.g.: "Create leads from incoming mails")
+        :return string: openacademy readable name of the field (e.g.: "Create leads from incoming mails")
         """
         model_name, field_name = full_field_name.rsplit('.', 1)
         return self.env[model_name].fields_get([field_name])[field_name]['string']
@@ -615,12 +615,12 @@ class ResConfigSettings(models.TransientModel, ResConfigModuleInstallationMixin)
     def get_config_warning(self, msg):
         """
         Helper: return a Warning exception with the given message where the %(field:xxx)s
-        and/or %(menu:yyy)s are replaced by the human readable field's name and/or menuitem's
+        and/or %(menu:yyy)s are replaced by the openacademy readable field's name and/or menuitem's
         full path.
 
         Usage:
         ------
-        Just include in your error message %(field:model_name.field_name)s to obtain the human
+        Just include in your error message %(field:model_name.field_name)s to obtain the openacademy
         readable field's name, and/or %(menu:module_name.menuitem_xml_id)s to obtain the menuitem's
         full path.
 

@@ -3489,7 +3489,7 @@ msgstr "Unidad de medida de parte de horas"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Timesheets are often essential for running a company.<br/>\n"
-"                    They are also prone to human error, repetitive, "
+"                    They are also prone to openacademy error, repetitive, "
 "annoying, and sometimes stressful to employees.<br/>\n"
 "                    Fortunately, Odoo has several solutions to make them as "
 "efficient and painless as possible!<br/>"

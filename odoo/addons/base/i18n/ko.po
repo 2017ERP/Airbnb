@@ -1692,7 +1692,7 @@ msgid ""
 "The manufacturing module allows you to cover planning, ordering, stocks and "
 "the manufacturing or assembly of products from raw materials and components. "
 "It handles the consumption and production of products according to a bill of "
-"materials and the necessary operations on machinery, tools or human "
+"materials and the necessary operations on machinery, tools or openacademy "
 "resources according to routings.\n"
 "\n"
 "It supports complete integration and planification of stockable goods, "
@@ -16716,7 +16716,7 @@ msgstr ""
 #. module: base
 #: model:res.groups,comment:base.group_user
 msgid ""
-"the user will be able to manage his own human resources stuff (leave "
+"the user will be able to manage his own openacademy resources stuff (leave "
 "request, timesheets, ...), if he is linked to an employee in the system."
 msgstr ""
 

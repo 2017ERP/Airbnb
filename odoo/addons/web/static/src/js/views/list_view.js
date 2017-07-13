@@ -1043,7 +1043,7 @@ ListView.List = Class.extend({
             // going to loop on performing name_get after we've resolved (and
             // set) a human-readable version. m2o does not have this issue
             // because the non-human-readable is just a number, where the
-            // human-readable version is a pair
+            // openacademy-readable version is a pair
             if (value && (ref_match = /^([\w\.]+),(\d+)$/.exec(value))) {
                 // reference values are in the shape "$model,$id" (as a
                 // string), we need to split and name_get this pair in order

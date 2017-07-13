@@ -511,7 +511,7 @@ msgstr "مقادیر پیش فرض"
 #: model:ir.ui.view,arch_db:hr_recruitment.hr_job_survey
 msgid ""
 "Define a specific contact address for this job position. If you keep it "
-"empty, the default email address will be used which is in human resources "
+"empty, the default email address will be used which is in openacademy resources "
 "settings"
 msgstr ""
 

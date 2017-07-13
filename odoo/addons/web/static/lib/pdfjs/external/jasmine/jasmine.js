@@ -1593,7 +1593,7 @@ jasmine.PrettyPrinter = function() {
 };
 
 /**
- * Formats a value in a nice, human-readable string.
+ * Formats a value in a nice, openacademy-readable string.
  *
  * @param value
  */

@@ -353,7 +353,7 @@ class Holidays(models.Model):
         """ Override to avoid automatic logging of creation """
         employee_id = values.get('employee_id', False)
         if not self._check_state_access_right(values):
-            raise AccessError(_('You cannot set a leave request as \'%s\'. Contact a human resource manager.') % values.get('state'))
+            raise AccessError(_('You cannot set a leave request as \'%s\'. Contact a openacademy resource manager.') % values.get('state'))
         if not values.get('department_id'):
             values.update({'department_id': self.env['hr.employee'].browse(employee_id).department_id.id})
         holiday = super(Holidays, self.with_context(mail_create_nolog=True, mail_create_nosubscribe=True)).create(values)
@@ -364,7 +364,7 @@ class Holidays(models.Model):
     def write(self, values):
         employee_id = values.get('employee_id', False)
         if not self._check_state_access_right(values):
-            raise AccessError(_('You cannot set a leave request as \'%s\'. Contact a human resource manager.') % values.get('state'))
+            raise AccessError(_('You cannot set a leave request as \'%s\'. Contact a openacademy resource manager.') % values.get('state'))
         result = super(Holidays, self).write(values)
         self.add_follower(employee_id)
         return result

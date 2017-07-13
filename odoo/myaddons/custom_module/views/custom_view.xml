@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!--Create Top Menu-->
+    <menuitem name="爱彼迎角色管理" id="custom_top_menu"/>
+    <!--Create Sub Child Menu-->
+    <menuitem name="系统角色" id="custom_sub_menu1"
+              parent ="custom_top_menu"/>
+
+    <!--Tree View-->
+    <record id="tree_custom_model" model="ir.ui.view">
+
+        <!--name/model的定义千万要注意了，一定要和model _name里面的字段定义一模一样-->
+
+        <field name="name">custom.model.tree</field>
+        <field name="model">custom.model</field>
+        <field name="arch" type="xml">
+
+            <!--以下字段定义了tree部分的显示，name="？" ？部分必须和model字段内容一致-->
+
+            <tree>
+                <field name="name"/>
+                <field name = "sex"/>
+                <field name ="age"/>
+            </tree>
+        </field>
+    </record>
+
+<!--一下定义了表单视图-->
+   <record model="ir.ui.view" id="course_form_view">
+            <field name="name">custom.model.form</field>
+            <field name="model">custom.model</field>
+            <field name="arch" type="xml">
+                <form string="Course Form">
+                    <sheet>
+                        <!--进行group后会显示在同一列-->
+                        <group>
+                            <field name="name" require="1"/>
+                            <field name="age" require="1"/>
+                            <field name="sex" require="1"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+
+
+
+    <!--Define custom_action-->
+    <record id="custom_action" model="ir.actions.act_window">
+        <field name="name">Child Menu</field>
+        <field name="res_model">custom.model</field>
+        <field name="view_type">form</field>
+        <field name="view_model">tree,form</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                Click here to add new item !
+            </p>
+        </field>
+    </record>
+
+    <!--Create child menu /Action menu-->
+    <menuitem name="总经理" id="custom_child_menu1"
+              parent="custom_sub_menu1" action="custom_action"/>
+    <menuitem name="副总经理" id="custom_child_menu2"
+              parent="custom_sub_menu1" action="custom_action"/>
+    <menuitem name="财务部" id="custom_child_menu3"
+              parent="custom_sub_menu1" />
+    <menuitem name="人力资源部" id="custom_child_menu4"
+              parent="custom_sub_menu1"/>
+    <menuitem name="市场营销部" id="custom_child_menu5"
+              parent="custom_sub_menu1"/>
+    <menuitem name="研发部" id="custom_child_menu6"
+              parent="custom_sub_menu1"/>
+
+<!--Create Fourth menu /Action menu-->
+    <menuitem name="财务部经理" id="finace_manager"
+              parent="custom_child_menu3" action="custom_action"/>
+    <menuitem name="财务部专员" id="finace_stuff"
+              parent="custom_child_menu3" action="custom_action"/>
+
+    <menuitem name="人力资源经理" id="HR_manager"
+              parent="custom_child_menu4" action="custom_action"/>
+    <menuitem name="人力资源专员" id="HR_stuff"
+              parent="custom_child_menu4" action="custom_action"/>
+
+    <menuitem name="市场营销经理" id="marketing_manager"
+              parent="custom_child_menu5" action="custom_action"/>
+    <menuitem name="市场营销专员" id="marketing_stuff"
+              parent="custom_child_menu5" action="custom_action"/>
+
+    <menuitem name="开发经理" id="IT_manager"
+              parent="custom_child_menu6" action="custom_action"/>
+    <menuitem name="开发人员" id="IT_stuff"
+              parent="custom_child_menu6" action="custom_action"/>
+
+
+
+</odoo>

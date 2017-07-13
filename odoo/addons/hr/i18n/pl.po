@@ -1181,7 +1181,7 @@ msgstr "Nazwa stanowiska musi być unikalna dla działu w firmie!"
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_attendance
 msgid ""
-"The user will gain access to the human resources attendance menu, enabling "
+"The user will gain access to the openacademy resources attendance menu, enabling "
 "him to manage his own attendance."
 msgstr ""
 
@@ -1586,7 +1586,7 @@ msgstr "użytkownik będzie mógł aprobować dokumenty tworzone przez pracownik
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
 msgid ""
-"the user will have an access to the human resources configuration as well as"
+"the user will have an access to the openacademy resources configuration as well as"
 " statistic reports."
 msgstr ""
 "użytkownik będzie miał dostęp do konfiguracji kadr oraz raportów "

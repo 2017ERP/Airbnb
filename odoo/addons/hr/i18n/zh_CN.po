@@ -1172,7 +1172,7 @@ msgstr "公司内部门的工作岗位名称必须唯一！"
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_attendance
 msgid ""
-"The user will gain access to the human resources attendance menu, enabling "
+"The user will gain access to the openacademy resources attendance menu, enabling "
 "him to manage his own attendance."
 msgstr "用户将获得权限访问人力资源的考勤菜单，使他能够管理自己的考勤。"
 
@@ -1581,6 +1581,6 @@ msgstr "这个用户能审批员工创建的单据"
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
 msgid ""
-"the user will have an access to the human resources configuration as well as"
+"the user will have an access to the openacademy resources configuration as well as"
 " statistic reports."
 msgstr "用户将有权限访问人力资源配置以及统计报表。"

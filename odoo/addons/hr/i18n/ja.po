@@ -1190,7 +1190,7 @@ msgstr "職位名は会社の部門ごとに固有のものでなければなり
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_attendance
 msgid ""
-"The user will gain access to the human resources attendance menu, enabling "
+"The user will gain access to the openacademy resources attendance menu, enabling "
 "him to manage his own attendance."
 msgstr "ユーザーは人事管理の出勤メニューにアクセスし、出勤者を管理することができます。"
 
@@ -1601,6 +1601,6 @@ msgstr "ユーザーは従業員が作成したドキュメントを承認する
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
 msgid ""
-"the user will have an access to the human resources configuration as well as"
+"the user will have an access to the openacademy resources configuration as well as"
 " statistic reports."
 msgstr "ユーザーは統計レポートだけでなく人事管理の設定にアクセスできます。"

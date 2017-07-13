@@ -1431,7 +1431,7 @@ msgstr "Sie können bereits genehmigten Urlaub nicht reduzieren"
 #: code:addons/hr_holidays/models/hr_holidays.py:361
 #, python-format
 msgid ""
-"You cannot set a leave request as '%s'. Contact a human resource manager."
+"You cannot set a leave request as '%s'. Contact a openacademy resource manager."
 msgstr ""
 "Sie können keine Urlaubsanfrage auf  '%s'  setzen. Bitte setzen Sie sich mit"
 " einem Personalmanager in Verbindung."

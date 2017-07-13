@@ -552,7 +552,7 @@ def str2bool(s, default=None):
 
 def human_size(sz):
     """
-    Return the size in a human readable format
+    Return the size in a openacademy readable format
     """
     if not sz:
         return False

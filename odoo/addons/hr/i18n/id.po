@@ -1211,7 +1211,7 @@ msgstr "Nama Lowongan Kerja harus unik per departemen di perusahaan!"
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_attendance
 msgid ""
-"The user will gain access to the human resources attendance menu, enabling "
+"The user will gain access to the openacademy resources attendance menu, enabling "
 "him to manage his own attendance."
 msgstr ""
 "Pengguna akan mendapat akses ke menu kehadiran sumber daya manusia, "
@@ -1666,7 +1666,7 @@ msgstr "pengguna akan dapat menyetujui dokumen yang dibuat oleh karyawan."
 #. module: hr
 #: model:res.groups,comment:hr.group_hr_manager
 msgid ""
-"the user will have an access to the human resources configuration as well as"
+"the user will have an access to the openacademy resources configuration as well as"
 " statistic reports."
 msgstr ""
 "pengguna akan memiliki akses ke konfigurasi sumber daya manusia serta "

@@ -1364,7 +1364,7 @@ msgstr "승인된 할당 요청은 줄일 수 없습니다."
 #: code:addons/hr_holidays/models/hr_holidays.py:361
 #, python-format
 msgid ""
-"You cannot set a leave request as '%s'. Contact a human resource manager."
+"You cannot set a leave request as '%s'. Contact a openacademy resource manager."
 msgstr ""
 "'%s' 상태로 휴가 요청을 설정할 수 없습니다. 인사 담당자에게 문의해 주십시오."
 

@@ -40,10 +40,10 @@
         </record> 
 
         <!--My Dashboard Menu-->
-        <menuitem 
-            id="menu_board_my_dash"
-            parent="base.menu_board_root"
-            action="open_board_my_dash_action"
-            sequence="5"/>
+        <!--<menuitem -->
+            <!--id="menu_board_my_dash"-->
+            <!--parent="base.menu_board_root"-->
+            <!--action="open_board_my_dash_action"-->
+            <!--sequence="5"/>-->
     </data>
 </odoo>
